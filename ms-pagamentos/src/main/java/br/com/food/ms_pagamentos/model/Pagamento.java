@@ -30,6 +30,7 @@ public class Pagamento implements Serializable {
     private Long id;
 
     @NotNull @Positive
+    @Column(precision = 19, scale = 2, nullable = false)
     private BigDecimal valor;
 
     @NotBlank @Size(max = 100)
