@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Pagamentos",
+      "Group": "ms-food",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "pagamentos",
+      "Username": "root",
+      "SSLMode": "prefer"
+    }
+  }
+}
